@@ -1,0 +1,54 @@
+body {
+margin: 0;
+box-sizing: border-box;
+}
+
+.general {
+    margin: 0 auto;
+    background-image: url(../images/lemons.jpeg);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%; 
+}
+
+.lemon {
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+.header1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #f1c50e;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background-color: #f1c50e;
+    color: #fff;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
