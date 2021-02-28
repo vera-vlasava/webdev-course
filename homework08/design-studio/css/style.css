@@ -1,0 +1,64 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.design-container {
+    width: 100%;
+    height: 900px;
+}
+
+.design-back {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/dawq-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.design-info {
+    padding: 30px;
+    width: 700px;
+    height: 200px;
+    background-color: #7c57b4;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin: 0 auto;
+    position: relative; 
+    top: 520px;
+    text-align: center; 
+    color: #fff;
+}
+
+.design-header1 {
+    color: #f1c50e;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120px;
+    text-shadow: rgb(0,0,0,0.25) 5px 5px 0px; 
+    position: absolute;
+    top: -120px; 
+    left: 140px; 
+}
+
+.design-header2 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.design-text {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.design-text a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
