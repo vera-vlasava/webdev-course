@@ -1,0 +1,151 @@
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 60px;
+}
+
+header {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333333;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ee5009;
+}
+
+.container {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.wrapper {
+    margin: 0 auto; 
+    width: 330px;
+    text-align: center;
+}
+
+.info, .image, .descr {
+    margin-bottom: 10px;
+}
+
+.image, .descr {
+    height: 300px;
+}
+
+.info {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.info-header {
+    color: #ee5009;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.info-text1 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.info-text2 {
+    margin-top: 10px;
+    font-style: italic;
+    text-align: left;
+}
+
+.info-text2 a {
+    border-bottom: 1px solid #ee5009;
+}
+
+.info > a {
+    display: inline-block;
+    color: #fff;
+    background-color: #ee5009;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
+
+.descr {
+    background-color: #ee5009;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.descr-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.descr-text {
+    line-height: 25px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 680px;
+
+    }
+    .rest {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .image, .descr {
+        height: 300px;
+        width: 49%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .info {
+        order: 1; 
+        margin-left: 10px; 
+    }
+
+}
+
