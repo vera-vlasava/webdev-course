@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.link {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 50px; 
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.green {
+    color: #61a734;
+}
+
+.orange {
+    color: #ff5a00;
+}
+
+.white {
+     color: #fff;
+}
+
+.bg-orange {
+    background-color: #ff5a00;
+    padding: 15px 40px;
+}
+
+.bg-green {
+    background-color: #61a734;
+}
+
+.navbar-custom, .bg-blue {
+    background-color: #e3effb;
+}
+
+.breaker {
+    border-bottom: 3px solid #fff
+}
+
+.bg-cart {
+    height: 400px;
+    background-image: url("../images/bg-1.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.info {
+    padding: 30px 20px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.text {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 29px;
+}
+
+.first-h-small {
+    margin-left: 40px;
+    
+}
+
+.first-h-big {
+    margin-top: -35px; 
+    font-size: 96px;
+}
+
+.descr {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.descr-header {
+    font-size: 48px;
+   
+    margin-top: 20px;
+}
+
+.text-small {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+i {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.pres {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    background-color: #fff;
+    border: 10px solid transparent;
+    background-clip: padding-box;
+    height: 338px;
+}
+
+.pres-title {
+    font-size: 24px;
+    font-weight: 300; 
+    padding-bottom: 20px;
+}
+
+.pres-text {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.pict {
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic-1 {
+    background-image: url("../images/gal-1.jpeg");
+
+}
+
+.pic-2 {
+    background-image: url("../images/gal-2.jpeg");
+  
+}
+
+.pic-3 {
+    background-image: url("../images/gal-3.jpeg");
+
+}
+
+.info-1 {
+    padding: 50px 35px 50px 50px;
+}
+
+.bg {
+    height: 400px;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.bg-veg {
+    background-image: url("../images/bg-2.jpg");
+}
+
+.imgs {
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+.img1 {
+    background-image: url("../images/pic-1.jpeg");
+  
+}
+
+.img2 {
+    background-image: url("../images/pic-2.jpeg");
+}
+
+.img3 {
+    background-image: url("../images/pic-3.jpeg");
+}
+
+.img4 {
+    background-image: url("../images/bg-5.jpeg");
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.veg {
+    margin-bottom: 10px;
+}
+
+
+.farm {
+    padding-bottom: 134px;
+}
+
+.farm1 {
+    position: relative;
+    background-color: #f2f2f2;
+    padding-bottom: 1680px;
+}
+
+.f1 {
+    position: absolute; 
+    top: -134px; 
+}
+
+.bg-cow {
+    background-image: url("../images/bg-4.jpeg");
+}
+
+.third p {
+    font-style: italic;
+}
+
+.third h1 {
+    font-size: 48px;
+}
+
+.card-link {
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.freepic {
+    font-weight: 600;
+   
+}
+
+.freepic a {
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.bg-tomato {
+    background-image: url("../images/bg-5.jpeg");
+    height: 530px;
+    background-position: 50% 50%;
+}
+
+.bg-grass {
+    background-image: url("../images/bg-6.jpeg");
+    height: 500px;
+    background-position: 50% 50%;
+}
+
+.bg-map {
+    background-image: url("../images/map.png");
+    height: 500px;
+    background-position: 50% 50%;
+}
+
+@media (min-width: 768px) {
+
+    .first, .second, .third, .fourth, .fifth, .map {
+        width: 50%;
+    }
+
+    .info {
+        margin: 30px 20px;
+    }
+
+    .bg-cart {
+        height: 457px;
+        width: 50%;
+    }
+
+    .main, .promise {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bg {
+        width: 50%;
+        height: 454px;
+    }
+
+    .info-1 {
+        padding: 20px 10px;
+    }
+
+    
+    .f1 {
+        left: 25px; 
+    }
+
+
+    .bg-cow {
+        height: 550px;
+        background-position: 50% 75%;
+    }
+   
+    .farm1 {
+        padding-bottom: 780px;
+    }
+
+    .bg-tomato {
+        height: 650px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .info {
+        padding: 60px;
+    }
+
+    .first-h-small {
+        margin-left: 110px;
+    }
+
+    .bg-cart {
+        height: 520px;
+    }
+
+    .bg-veg {
+        height: 540px;
+    }
+
+    .bg-cow {
+        height: 600px;
+    }
+
+
+    .farm {
+        padding-bottom: 163px;
+    }
+    
+    .f1 {
+        top: -163px; 
+        left: 30px; 
+    }
+
+    .farm1 {
+        padding-bottom: 350px;
+    }
+
+    .third .info-1, {
+        padding: 40px; 
+    }
+
+    .fourth .info-1 {
+        padding: 30px; 
+    }
+    
+
+}
+
+@media (min-width: 1300px) {
+
+    .f1 {
+        left: 140px;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .f1 {
+        left: 750px;
+    }
+}
