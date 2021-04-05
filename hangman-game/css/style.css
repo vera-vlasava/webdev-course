@@ -1,0 +1,101 @@
+/* font-family: 'Lato', sans-serif; */
+
+body {
+  margin: 0;
+  background-color: #bee5d3;
+  color: #8b5e83;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background-color: #8b5e83;
+  border: 1px solid #8b5e83;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h3,
+label {
+  font-size: 24px;
+}
+
+#go-btn {
+  padding: 11px 32px;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #8b5e83;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus,
+button:focus {
+  outline: 1.5px solid #8b5e83;
+}
+
+#word {
+  font-size: 52px;
+  letter-spacing: 0.2em;
+  margin-top: 20px;
+}
+
+#alphabet {
+  padding: 5px;
+}
+
+#alphabet button {
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+#alphabet button:hover {
+  background-color: white;
+  border: 1px solid #8b5e83;
+  color: #8b5e83;
+}
+
+#score-text {
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+#score-number {
+  margin: 0;
+  font-size: 80px;
+}
+
+.hide {
+  display: none;
+}
+
+#win {
+  font-size: 52px;
+  color: #3b5360;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 495px) {
+  label {
+    display: block;
+  }
+}

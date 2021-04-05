@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <h3>Input your word and start the game!</h3>
+    <section id="word-form">
+      <form action="#" id="form">
+        <label for="newWord">Your word</label>
+        <input type="text" id="newWord" />
+        <button type="submit" id="go-btn">Go!</button>
+      </form>
+    </section>
+    <hr />
+    <section>
+      <div id="alphabet"></div>
+    </section>
+    <hr />
+    <section>
+      <div id="win" class="hide">You win! Input next word!</div>
+      <div id="word"></div>
+    </section>
+    <section>
+      <div id="score-wrapper"></div>
+    </section>
+    <script src="./js/hangman.js"></script>
+  </body>
+</html>
